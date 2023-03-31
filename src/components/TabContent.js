@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import Translate from "../../public/proyectos_images/translate.jpg";
 import Hunti from "../../public/proyectos_images/hunti.jpg";
@@ -19,7 +20,13 @@ export function Web() {
     <>
       <div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-          <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
+          <motion.div
+            initial={{ opacity: 0, x: -15 }}
+            transition={{ type: "spring", stiffness: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg"
+          >
             <Image
               className="object-cover w-full h-full"
               src={Portafolio}
@@ -51,7 +58,7 @@ export function Web() {
                 <p className="text-lg font-bold text-white">Portafolio</p>
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
@@ -62,7 +69,13 @@ export function Script() {
     <>
       <div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-          <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
+          <motion.div
+            initial={{ opacity: 0, x: -15 }}
+            transition={{ type: "spring", stiffness: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg"
+          >
             <Image
               className="object-cover w-full h-full"
               src={Translate}
@@ -94,8 +107,14 @@ export function Script() {
                 <p className="text-lg font-bold text-white">Translate</p>
               </a>
             </div>
-          </div>
-          <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -15 }}
+            transition={{ type: "spring", stiffness: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg"
+          >
             <Image className="object-cover w-full h-full" src={Hunti} alt="" width={0} height={0} />
             <div className="absolute inset-0 flex items-center justify-center transition-all opacity-0 hover:opacity-100 hover:bg-black hover:bg-opacity-70 ">
               <a
@@ -121,7 +140,7 @@ export function Script() {
                 <p className="text-lg font-bold text-white">Hunti</p>
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

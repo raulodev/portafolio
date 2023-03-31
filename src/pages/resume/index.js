@@ -97,8 +97,7 @@ function Home() {
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     Python Core
                   </div>
-                  <div className="font-semibold">Sololearn</div>
-                  <div>
+                  <div className="flex gap-2 font-semibold">
                     <a
                       href="https://www.sololearn.com/Certificate/CT-NZIC83RE/png"
                       target="_blank"
@@ -119,14 +118,14 @@ function Home() {
                         />
                       </svg>
                     </a>
+                    Sololearn
                   </div>
                 </div>
                 <div className="p-4 space-y-2 shadow-lg">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     SQL
                   </div>
-                  <div className="font-semibold">Sololearn</div>
-                  <div>
+                  <div className="flex gap-2 font-semibold">
                     <a
                       href="https://www.sololearn.com/Certificate/CT-P8T367SP/png"
                       target="_blank"
@@ -147,14 +146,14 @@ function Home() {
                         />
                       </svg>
                     </a>
+                    Sololearn
                   </div>
                 </div>
                 <div className="p-4 space-y-2 shadow-lg">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     JQuery
                   </div>
-                  <div className="font-semibold">Sololearn</div>
-                  <div>
+                  <div className="flex gap-2 font-semibold">
                     <a
                       href="https://www.sololearn.com/Certificate/CT-SYKEMTQZ/pdf"
                       target="_blank"
@@ -175,14 +174,14 @@ function Home() {
                         />
                       </svg>
                     </a>
+                    Sololearn
                   </div>
                 </div>
                 <div className="p-4 space-y-2 shadow-lg">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     Responsive Web Design
                   </div>
-                  <div className="font-semibold">Sololearn</div>
-                  <div>
+                  <div className="flex gap-2 font-semibold">
                     <a
                       href="https://www.sololearn.com/Certificate/1162-25257133/pdf/"
                       target="_blank"
@@ -203,6 +202,7 @@ function Home() {
                         />
                       </svg>
                     </a>
+                    Sololearn
                   </div>
                 </div>
               </div>
