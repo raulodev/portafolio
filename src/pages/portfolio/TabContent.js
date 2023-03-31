@@ -16,7 +16,7 @@ export function Web() {
       <div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
-            <img
+            <Image
               className="object-cover w-full h-full"
               src="/proyectos_images/portafolio.png"
               alt=""
@@ -59,7 +59,7 @@ export function Script() {
       <div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
-            <img
+            <Image
               className="object-cover w-full h-full"
               src="/proyectos_images/translate.jpg"
               alt=""
@@ -92,7 +92,7 @@ export function Script() {
             </div>
           </div>
           <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
-            <img
+            <Image
               className="object-cover w-full h-full"
               src="/proyectos_images/hunti.jpg"
               alt=""
