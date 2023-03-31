@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { motion } from "framer-motion";
 
-import { Stars } from "./Stars";
+import { Stars } from "../../components/Stars";
 
 function Home() {
   return (

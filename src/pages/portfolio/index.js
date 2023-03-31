@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import { motion } from "framer-motion";
 
-import { All, Script, Web } from "./TabContent";
+import { All, Script, Web } from "../../components/TabContent";
 
 function Home() {
   const [classTab1, setClassTab1] = useState("block");
