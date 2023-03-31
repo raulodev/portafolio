@@ -13,8 +13,8 @@ function Home() {
   const [classTab2, setClassTab2] = useState("hidden");
   const [classTab3, setClassTab3] = useState("hidden");
 
-  const buttonActive = "p-5 text-xl font-bold text-yellow-500 uppercase";
-  const buttonNotActive = "p-5 text-xl font-bold uppercase";
+  const buttonActive = "p-5 outline-none text-xl font-bold text-yellow-500 uppercase";
+  const buttonNotActive = "p-5 outline-none text-xl font-bold uppercase";
 
   const [activeButtonTab1, setActiveButtonTab1] = useState(buttonActive);
   const [activeButtonTab2, setActiveButtonTab2] = useState(buttonNotActive);

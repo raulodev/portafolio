@@ -71,7 +71,7 @@ function Home() {
                     <div className="border-b flex justify-center items-center border-dashed border-yellow-500 h-[50%]">
                       <div>
                         <h1 className="text-4xl font-semibold text-center text-yellow-500">+4</h1>
-                        <p className="text-lg text-center text-white uppercase font-mediun">
+                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
                           años de experiencia
                         </p>
                       </div>
@@ -79,7 +79,7 @@ function Home() {
                     <div className="border-y md:border-b-0 md:border-t flex justify-center items-center border-dashed border-yellow-500 h-[50%]">
                       <div>
                         <h1 className="text-4xl font-semibold text-center text-yellow-500">+20</h1>
-                        <p className="text-lg text-center text-white uppercase font-mediun">
+                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
                           Tecnologías y frameworks
                         </p>
                       </div>
@@ -89,7 +89,7 @@ function Home() {
                     <div className="border-y md:border-t-0 md:border-b flex justify-center items-center border-dashed border-yellow-500 h-[50%]">
                       <div>
                         <h1 className="text-4xl font-semibold text-center text-yellow-500">+10</h1>
-                        <p className="text-lg text-center text-white uppercase font-mediun">
+                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
                           proyectos
                         </p>
                       </div>
@@ -97,7 +97,7 @@ function Home() {
                     <div className="border-t flex justify-center items-center border-dashed border-yellow-500 h-[50%]">
                       <div>
                         <h1 className="text-4xl font-semibold text-center text-yellow-500">+140</h1>
-                        <p className="text-lg text-center text-white uppercase font-mediun">
+                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
                           Contribuciones
                         </p>
                       </div>

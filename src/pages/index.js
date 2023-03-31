@@ -32,8 +32,8 @@ export default function Home() {
               >
                 Soy <span className="text-yellow-500">Enrique</span>
               </motion.div>
-              <div className="px-4 py-1 text-xl font-bold uppercase bg-yellow-500 rounded shadow w-max">
-                Desarrollador de Software
+              <div className="px-4 py-1 text-lg font-bold uppercase bg-yellow-500 rounded shadow sm:text-xl w-max">
+                Desarrollador
               </div>
               <div>
                 <p className="text-lg">
