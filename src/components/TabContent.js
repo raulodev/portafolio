@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+import Translate from "../../public/proyectos_images/translate.jpg";
+import Hunti from "../../public/proyectos_images/hunti.jpg";
+import Portafolio from "../../public/proyectos_images/portafolio.png";
+
 export function All() {
   return (
     <>
@@ -18,7 +22,7 @@ export function Web() {
           <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
             <Image
               className="object-cover w-full h-full"
-              src="/proyectos_images/portafolio.png"
+              src={Portafolio}
               alt=""
               width={0}
               height={0}
@@ -61,7 +65,7 @@ export function Script() {
           <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
             <Image
               className="object-cover w-full h-full"
-              src="/proyectos_images/translate.jpg"
+              src={Translate}
               alt=""
               width={0}
               height={0}
@@ -92,13 +96,7 @@ export function Script() {
             </div>
           </div>
           <div className="relative overflow-hidden transition-shadow rounded shadow-md h-52 hover:shadow-lg">
-            <Image
-              className="object-cover w-full h-full"
-              src="/proyectos_images/hunti.jpg"
-              alt=""
-              width={0}
-              height={0}
-            />
+            <Image className="object-cover w-full h-full" src={Hunti} alt="" width={0} height={0} />
             <div className="absolute inset-0 flex items-center justify-center transition-all opacity-0 hover:opacity-100 hover:bg-black hover:bg-opacity-70 ">
               <a
                 className="flex"
