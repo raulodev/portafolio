@@ -68,7 +68,7 @@ export default function Home() {
                   Un desarrollador full-stack que busca constantemente nuevos retos y oportunidades
                 </p>
               </div>
-              <div className="px-5 py-3 bg-yellow-500 rounded-full shadow w-max">
+              <div className="px-5 py-3 transition-shadow bg-yellow-500 rounded-full shadow-lg hover:shadow w-max">
                 <Link className="text-xl font-bold text-white uppercase" href="/about">
                   Sobre mi
                 </Link>

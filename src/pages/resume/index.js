@@ -102,7 +102,7 @@ function Home() {
             <div>
               <div className="py-4 text-2xl font-bold uppercase">Educación</div>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                <div className="p-4 space-y-2 shadow-lg">
+                <div className="p-4 space-y-2 transition-shadow shadow-lg hover:shadow">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     Preuni José Martí
                   </div>
@@ -111,11 +111,20 @@ function Home() {
                     Período de preparación académica y personal para ingresar a la universidad.
                   </div>
                 </div>
-                <div className="p-4 space-y-2 shadow-lg">
+                <div className="p-4 space-y-2 transition-shadow shadow-lg hover:shadow">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     UHO Oscar Lucero
                   </div>
-                  <div className="font-semibold">2022-actualidad</div>
+                  <div className="flex items-center gap-2 font-semibold">
+                    <Image
+                      alt="me"
+                      className="w-10 h-10"
+                      src="images/uho.svg"
+                      width={0}
+                      height={0}
+                    />
+                    2022-actualidad
+                  </div>
                   <div>
                     Carrera por encuentro de Ingeniería informática donde aprendo a diseñar,
                     desarrollar y mantener sistemas informáticos
@@ -124,11 +133,18 @@ function Home() {
               </div>
               <div className="py-4 text-2xl font-bold uppercase">Cursos y certificaciones</div>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                <div className="p-4 space-y-2 shadow-lg">
-                  <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
+                <div className="p-4 space-y-2 text-white transition-shadow bg-black shadow-lg hover:shadow">
+                  <div className="px-4 py-1 font-semibold uppercase bg-yellow-500 rounded shadow w-max">
                     Python Core
                   </div>
-                  <div className="flex gap-2 font-semibold">
+                  <div className="flex items-center gap-2 font-semibold">
+                    <Image
+                      alt="me"
+                      className="w-10 h-10"
+                      src="images/sololearn.svg"
+                      width={0}
+                      height={0}
+                    />
                     <a
                       href="https://www.sololearn.com/Certificate/CT-NZIC83RE/png"
                       target="_blank"
@@ -152,11 +168,18 @@ function Home() {
                     Sololearn
                   </div>
                 </div>
-                <div className="p-4 space-y-2 shadow-lg">
+                <div className="p-4 space-y-2 text-white transition-shadow bg-black shadow-lg hover:shadow">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     SQL
                   </div>
-                  <div className="flex gap-2 font-semibold">
+                  <div className="flex items-center gap-2 font-semibold">
+                    <Image
+                      alt="me"
+                      className="w-10 h-10"
+                      src="images/sololearn.svg"
+                      width={0}
+                      height={0}
+                    />
                     <a
                       href="https://www.sololearn.com/Certificate/CT-P8T367SP/png"
                       target="_blank"
@@ -180,11 +203,18 @@ function Home() {
                     Sololearn
                   </div>
                 </div>
-                <div className="p-4 space-y-2 shadow-lg">
+                <div className="p-4 space-y-2 text-white transition-shadow bg-black shadow-lg hover:shadow">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     JQuery
                   </div>
-                  <div className="flex gap-2 font-semibold">
+                  <div className="flex items-center gap-2 font-semibold">
+                    <Image
+                      alt="me"
+                      className="w-10 h-10"
+                      src="images/sololearn.svg"
+                      width={0}
+                      height={0}
+                    />
                     <a
                       href="https://www.sololearn.com/Certificate/CT-SYKEMTQZ/pdf"
                       target="_blank"
@@ -208,11 +238,18 @@ function Home() {
                     Sololearn
                   </div>
                 </div>
-                <div className="p-4 space-y-2 shadow-lg">
+                <div className="p-4 space-y-2 text-white transition-shadow bg-black shadow-lg hover:shadow">
                   <div className="px-4 py-1 font-semibold text-white uppercase bg-yellow-500 rounded shadow w-max">
                     Responsive Web Design
                   </div>
-                  <div className="flex gap-2 font-semibold">
+                  <div className="flex items-center gap-2 font-semibold">
+                    <Image
+                      alt="me"
+                      className="w-10 h-10"
+                      src="images/sololearn.svg"
+                      width={0}
+                      height={0}
+                    />
                     <a
                       href="https://www.sololearn.com/Certificate/1162-25257133/pdf/"
                       target="_blank"
