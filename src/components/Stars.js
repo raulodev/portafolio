@@ -5,7 +5,7 @@ export function Stars() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-3 h-3 text-yellow-500 lg:w-4 lg:h-4"
+        className="w-3 h-3 text-green-500 lg:w-4 lg:h-4"
       >
         <path
           fillRule="evenodd"
@@ -17,7 +17,7 @@ export function Stars() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-3 h-3 text-yellow-500 lg:w-4 lg:h-4"
+        className="w-3 h-3 text-green-500 lg:w-4 lg:h-4"
       >
         <path
           fillRule="evenodd"
@@ -29,7 +29,7 @@ export function Stars() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-3 h-3 text-yellow-500 lg:w-4 lg:h-4"
+        className="w-3 h-3 text-green-500 lg:w-4 lg:h-4"
       >
         <path
           fillRule="evenodd"
@@ -41,7 +41,7 @@ export function Stars() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-3 h-3 text-yellow-500 lg:w-4 lg:h-4"
+        className="w-3 h-3 text-green-500 lg:w-4 lg:h-4"
       >
         <path
           fillRule="evenodd"
@@ -53,7 +53,7 @@ export function Stars() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-3 h-3 text-yellow-500 lg:w-4 lg:h-4"
+        className="w-3 h-3 text-green-500 lg:w-4 lg:h-4"
       >
         <path
           fillRule="evenodd"
