@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import Translate from "../../public/proyectos_images/translate.jpg";
 import Hunti from "../../public/proyectos_images/hunti.jpg";
 import Portafolio from "../../public/proyectos_images/portafolio.png";
+import S3link from "../../public/proyectos_images/s3link.png";
+import fflow from "../../public/proyectos_images/Forward.png";
+import calcuserver from "../../public/proyectos_images/calcuserver.png";
 
 export function All() {
   return (
@@ -24,6 +27,18 @@ export function Web() {
           repo_link="https://github.com/raulodev/portafolio"
           name="Portafolio"
         />
+        <Card
+          image={S3link}
+          repo_link="https://github.com/raulodev/selink"
+          name="S3link"
+          description="Almacén de enlaces"
+        />
+        <Card
+          image={calcuserver}
+          repo_link="https://github.com/raulodev/calcuserver"
+          name="Calcuserver"
+          description="Calcula el precio de los vps de ETECSA"
+        />
       </div>
     </>
   );
@@ -33,16 +48,22 @@ export function Script() {
     <>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         <Card
+          image={Hunti}
+          repo_link="https://github.com/raulodev/hunti"
+          name="Hunti"
+          description="Aplicación para crear screenshot"
+        />
+        <Card
           image={Translate}
           repo_link="https://github.com/raulodev/translatebot-tg"
           name="Translate"
           description="Aplicación de traducción"
         />
         <Card
-          image={Hunti}
-          repo_link="https://github.com/raulodev/hunti"
-          name="Hunti"
-          description="Aplicación para crear screenshot"
+          image={fflow}
+          repo_link="https://github.com/raulodev/ForwardFlow"
+          name="Forward Flow"
+          description="Programa el reenvío de mensajes"
         />
       </div>
     </>
