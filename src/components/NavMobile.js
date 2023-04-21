@@ -72,7 +72,7 @@ export const NavMobile = ({
           </svg>
         </Link>
 
-        <Link href="/testimonials">
+        {/* <Link href="/testimonials">
           <svg
             whileHover={{ scale: 1.25 }}
             xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export const NavMobile = ({
               clipRule="evenodd"
             />
           </svg>
-        </Link>
+        </Link> */}
 
         <Link href="/contact">
           <svg

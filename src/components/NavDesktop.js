@@ -73,7 +73,7 @@ export const NavDesktop = ({
           </motion.svg>
         </Link>
 
-        <Link href="/testimonials">
+        {/* <Link href="/testimonials">
           <motion.svg
             whileHover={{ scale: 1.25 }}
             xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ export const NavDesktop = ({
               clipRule="evenodd"
             />
           </motion.svg>
-        </Link>
+        </Link> */}
 
         <Link href="/contact">
           <motion.svg

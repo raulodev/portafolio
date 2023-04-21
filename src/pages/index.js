@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <CustomHead />
-      <main className="min-h-screen font-serif selection:bg-green-500 selection:text-white">
+      <main className="min-h-screen  selection:bg-green-500 selection:text-white">
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="flex items-center justify-center min-h-screen bg-zinc-800">
             <div className="w-3/4 space-y-5 sm:w-2/3 xl:3/4">

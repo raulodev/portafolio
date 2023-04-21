@@ -51,7 +51,7 @@ export const Aside = ({
             <Link href="/portfolio">Portafolio</Link>
           </div>
           <Line />
-          <div
+          {/* <div
             className={
               testimonials
                 ? "text-lg font-extrabold text-white uppercase font-mediun"
@@ -59,8 +59,8 @@ export const Aside = ({
             }
           >
             <Link href="/testimonials">Testimonios</Link>
-          </div>
-          <Line />
+          </div> */}
+          {/* <Line /> */}
           <div
             className={
               contact

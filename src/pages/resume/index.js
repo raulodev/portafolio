@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <CustomHead title="Resumen" />
-      <main className="flex min-h-screen pb-20 font-serif sm:pb-0 bg-zinc-800 selection:bg-green-500 selection:text-white">
+      <main className="flex min-h-screen pb-20 sm:pb-0 bg-zinc-800 selection:bg-green-500 selection:text-white">
         <Aside resume={true} />
         <div className="flex justify-center xl:ml-[16.7%] text-white items-start min-h-screen w-full xl:w-[77.3%]">
           <div className="w-full p-10 space-y-6">
@@ -17,6 +17,31 @@ function Home() {
               <div className="text-4xl font-black uppercase lg:text-8xl">Resumen</div>
             </div>
             <div>
+              <div className="py-4 text-2xl font-bold uppercase">Tecnologías</div>
+              <div className="grid grid-cols-3 gap-4 text-center sm:grid-cols-4 lg:grid-cols-5">
+                <i className="devicon-bootstrap-plain colored"></i>
+
+                <i className="devicon-django-plain"></i>
+
+                <i className="devicon-docker-plain colored"></i>
+
+                <i className="devicon-git-plain colored"></i>
+
+                <i className="devicon-html5-plain colored"></i>
+
+                <i className="devicon-javascript-plain colored"></i>
+
+                <i className="devicon-jquery-plain colored"></i>
+
+                <i className="devicon-nextjs-original"></i>
+
+                <i className="devicon-postgresql-plain colored"></i>
+
+                <i className="devicon-python-plain colored"></i>
+
+                <i className="devicon-react-original colored"></i>
+              </div>
+
               <div className="py-4 text-2xl font-bold uppercase">Cursos y certificaciones</div>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <Card

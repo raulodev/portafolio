@@ -22,11 +22,11 @@ export function Web() {
   return (
     <>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-        <Card
+        {/* <Card
           image={Portafolio}
           repo_link="https://github.com/raulodev/portafolio"
           name="Portafolio"
-        />
+        /> */}
         <Card
           image={S3link}
           repo_link="https://github.com/raulodev/selink"

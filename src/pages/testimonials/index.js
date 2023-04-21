@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <CustomHead title="Testimonios" />
-      <main className="flex min-h-screen font-serif bg-zinc-800 selection:bg-green-500 selection:text-white">
+      <main className="flex min-h-screen  bg-zinc-800 selection:bg-green-500 selection:text-white">
         <Aside testimonials={true} />
         <div className="flex justify-center text-white xl:ml-[16.7%] items-start min-h-screen w-full xl:w-[77.3%]">
           <div className="w-full p-10 space-y-6">

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+i {
+    font-size: 50px;
+}
+
+i.devicon-django-plain {
+color: #22C55E;
+}
+
+main {
+
+    font-family: 'Roboto', sans-serif;
+}
