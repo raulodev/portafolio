@@ -9,7 +9,7 @@ export const NavMobile = ({
 }) => {
   return (
     <div className="fixed left-0 right-0 flex justify-center lg:hidden bottom-4">
-      <div className="flex justify-center gap-6 px-6 py-2 bg-green-500 rounded-full">
+      <div className="flex justify-center gap-6 px-6 py-2 rounded-full bg-amber-400">
         <Link href="/">
           <svg
             whileHover={{ scale: 1.25 }}

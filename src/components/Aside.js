@@ -9,7 +9,7 @@ export const Aside = ({
   contact = false,
 }) => {
   return (
-    <div className="hidden xl:block fixed h-screen w-[16.7%] bg-green-500">
+    <div className="hidden xl:block fixed h-screen w-[16.7%] bg-amber-400">
       <div className="bg-zinc-500 w-full h-[30%]">
         <Image alt="me" className="w-full h-full" src="images/me.svg" width={0} height={0} />
       </div>

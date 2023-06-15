@@ -4,15 +4,10 @@ import { CustomHead } from "@/components/Head";
 import { Aside } from "@/components/Aside";
 
 function Home() {
-  const exp = 4;
-  const tech = 15;
-  const projects = 10;
-  const contrib = 140;
-
   return (
     <>
       <CustomHead title="Sobre Mi" />
-      <main className="flex min-h-screen pb-20  sm:pb-0 bg-zinc-800 selection:bg-green-500 selection:text-white">
+      <main className="flex min-h-screen pb-20 sm:pb-0 bg-zinc-800 selection:bg-yellow-400 selection:text-white">
         <Aside about={true} />
         <div className="flex justify-center xl:ml-[16.7%] items-start min-h-screen w-full xl:w-[77.3%]">
           <div className="w-full p-10 space-y-5">
@@ -23,84 +18,70 @@ function Home() {
               <div className="text-2xl lg:text-4xl">
                 Yo soy <span className="font-bold">Raúl Enrique,</span> Desarrollador de Software
               </div>
-              <div className=" lg:text-lg">
+              <div className="lg:text-lg">
                 Nací en Cuba y crecí en Holguín donde descubrí mi pasión por la tecnología y la
                 programación. En mi tiempo libre, disfruto de la lectura, el aprendizaje y la
                 experimentación con nuevas tecnologías. Siempre estoy buscando nuevas formas de
                 mejorar mis habilidades y de aprender más sobre el mundo de la programación.
               </div>
-              <div className="space-y-10 lg:space-y-0 lg:space-x-10 lg:flex">
-                <div className="md:flex w-full lg:w-[60%] h-96 rounded shadow   bg-gradient-to-r from-black via-zinc-900 to-black p-4">
-                  <div className="flex flex-col w-full px-4 border-green-500 border-dashed md:border-r h-1/2 md:h-full md:w-1/2">
-                    <div className="border-b flex justify-center items-center border-dashed border-green-500 h-[50%]">
-                      <div>
-                        <h1 className="text-4xl font-semibold text-center text-green-500">
-                          +{exp}
-                        </h1>
-                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
-                          años de experiencia
-                        </p>
-                      </div>
-                    </div>
-                    <div className="border-y md:border-b-0 md:border-t flex justify-center items-center border-dashed border-green-500 h-[50%]">
-                      <div>
-                        <h1 className="text-4xl font-semibold text-center text-green-500">
-                          +{tech}
-                        </h1>
-                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
-                          Tecnologías y frameworks
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col w-full px-4 border-green-500 border-dashed md:border-l h-1/2 md:h-full md:w-1/2">
-                    <div className="border-y md:border-t-0 md:border-b flex justify-center items-center border-dashed border-green-500 h-[50%]">
-                      <div>
-                        <h1 className="text-4xl font-semibold text-center text-green-500">
-                          +{projects}
-                        </h1>
-                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
-                          proyectos
-                        </p>
-                      </div>
-                    </div>
-                    <div className="border-t flex justify-center items-center border-dashed border-green-500 h-[50%]">
-                      <div>
-                        <h1 className="text-4xl font-semibold text-center text-green-500">
-                          +{contrib}
-                        </h1>
-                        <p className="text-center text-white uppercase sm:text-lg font-mediun">
-                          Contribuciones
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col w-full lg:w-[40%] gap-4">
-                  <div className="text-2xl font-bold">Qué hago ?</div>
-                  <div className="flex w-full">
-                    <div className="flex gap-3">
-                      <div className="lg:w-[16rem]">
-                        <div className="font-semibold uppercase">Automatización</div>
-                        <div className="text-md">
-                          Creación de scripts para tareas complejas automatizables o procesamientos
-                          masivos de datos
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex w-full">
-                    <div className="flex gap-3">
-                      <div className="lg:w-[16rem]">
-                        <div className="font-semibold uppercase">Desarrollo web</div>
-                        <div>
-                          Creación de sitios web con frameworks como Django , Nextjs y Tailwindcss
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="text-2xl font-bold">Qué hago ?</div>
+              <div className="font-semibold uppercase">Automatización</div>
+              <div className="lg:text-lg">
+                <ul className="space-y-2 list-disc list-outside">
+                  <li>
+                    Procesamiento de datos: Puedo automatizar el procesamiento de grandes cantidades
+                    de datos, como archivos CSV, Excel, JSON, XML, y otros formatos.
+                  </li>
+                  <li>
+                    Automatización de tareas repetitivas: Puedo crear scripts que automatizan tareas
+                    repetitivas, como descargar archivos de un sitio web, enviar correos
+                    electrónicos, actualizar bases de datos, entre otras tareas.
+                  </li>
+                  <li>
+                    Creación de bots: Puedo crear bots para automatizar tareas en redes sociales,
+                    como publicar contenido, responder a mensajes, seguir o dejar de seguir a otros
+                    usuarios, entre otras tareas.
+                  </li>
+                  <li>
+                    Web scraping: Puedo automatizar el proceso de recopilar datos de páginas web,
+                    utilizando librerías como Beautiful Soup y Selenium.
+                  </li>
+                </ul>
               </div>
+              <div className="font-semibold uppercase">Desarrollo web backend</div>
+              <ul className="space-y-2 list-disc list-outside">
+                <li>
+                  Creación de aplicaciones web: Puedo utilizar frameworks web como Django y Flask
+                  para crear aplicaciones web completas utilizando Python.
+                </li>
+                <li>
+                  Desarrollo de APIs: Puedo crear APIs utilizando Python y frameworks como Flask y
+                  FastAPI para crear y exponer servicios web.
+                </li>
+                <li>
+                  Integración con bases de datos: Puedo utilizar librerías de bases de datos como
+                  SQLAlchemy y Django ORM para trabajar con bases de datos en aplicaciones web.
+                </li>
+              </ul>
+              <div className="font-semibold uppercase">Desarrollo web frontend</div>
+              <ul className="space-y-2 list-disc list-outside">
+                <li>
+                  Creación de componentes: React se basa en la creación de componentes reutilizables
+                  que se pueden utilizar en diferentes partes de una aplicación web. Como
+                  programador de React, puedo crear y personalizar componentes para diferentes
+                  necesidades.
+                </li>
+                <li>
+                  Desarrollo de aplicaciones web: React se utiliza ampliamente en el desarrollo de
+                  aplicaciones web, permitiendo a los desarrolladores crear aplicaciones web de una
+                  sola página (SPA) y aplicaciones web progresivas (PWA).
+                </li>
+                <li>
+                  Integración con otras librerías y frameworks: React se puede integrar fácilmente
+                  con otras librerías y frameworks de JavaScript, como Next.js, lo que me permite
+                  crear aplicaciones más complejas y escalables.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ function Home() {
   const [classTab2, setClassTab2] = useState("hidden");
   const [classTab3, setClassTab3] = useState("hidden");
 
-  const buttonActive = "p-5 outline-none text-xl font-bold text-green-500 uppercase";
+  const buttonActive = "p-5 outline-none text-xl font-bold text-amber-400 uppercase";
   const buttonNotActive = "p-5 outline-none text-xl font-bold uppercase";
 
   const [activeButtonTab1, setActiveButtonTab1] = useState(buttonActive);
@@ -46,7 +46,7 @@ function Home() {
   return (
     <>
       <CustomHead title="Portafolio" />
-      <main className="flex min-h-screen pb-20  sm:pb-0 bg-zinc-800 selection:bg-green-500 selection:text-white">
+      <main className="flex min-h-screen pb-20 sm:pb-0 bg-zinc-800 selection:bg-amber-400 selection:text-white">
         <Aside portfolio={true} />
         <div className="flex xl:ml-[16.7%] text-white justify-center items-start min-h-screen w-full xl:w-[77.3%]">
           <div className="w-full p-10">

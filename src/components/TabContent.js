@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 import Translate from "../../public/proyectos_images/translate.jpg";
 import Hunti from "../../public/proyectos_images/hunti.jpg";
-import Portafolio from "../../public/proyectos_images/portafolio.png";
 import S3link from "../../public/proyectos_images/s3link.png";
 import fflow from "../../public/proyectos_images/Forward.png";
 import calcuserver from "../../public/proyectos_images/calcuserver.png";
@@ -22,11 +21,6 @@ export function Web() {
   return (
     <>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-        {/* <Card
-          image={Portafolio}
-          repo_link="https://github.com/raulodev/portafolio"
-          name="Portafolio"
-        /> */}
         <Card
           image={S3link}
           repo_link="https://github.com/raulodev/selink"
@@ -76,7 +70,7 @@ const Card = ({ image, repo_link, name, description }) => {
       initial={{ opacity: 0, x: -15 }}
       transition={{ type: "spring", stiffness: 100 }}
       whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
       className="relative overflow-hidden rounded-sm h-52 hover:shadow-lg"
     >
       <Image className="object-cover w-full h-full" src={image} alt="" width={0} height={0} />
